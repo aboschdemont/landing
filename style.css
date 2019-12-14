@@ -1,0 +1,100 @@
+/* Write some CSS below */
+
+h1, h2, h3 {
+  font-family: Chivo; sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 	{
+	font-size: 24px;
+	color: #C08497;
+}
+
+a {
+	color: #C08497;
+	text-decoration: none;
+}
+
+body {
+	font-family: Chivo; sans-serif;
+	background-color: rgba(230, 230, 230)
+	color: rbg(20, 20, 20);
+	font-size: 18px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+
+.banner {
+  background-image: url('https://source.unsplash.com/random');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  color: rgb(230, 230, 230);
+}
+
+
+.banner h1 {
+	font-size: 56px;
+
+}
+
+.banner p {
+	opacity: 0.8;
+	font-size: 32px
+	font-weight: lighter
+	margin-bottom: 40px;
+
+}
+
+.btn-purple {
+	background-color: #C08497;
+	color: rgb(230, 230, 230);
+	padding: 15px 20px;
+	border-radius: 4px
+	box-shadow: 0 5px 6px rgb(230, 230, 230);
+}
+
+
+.btn-purple: hover {
+	background-color: black
+	color: rgb(230, 230, 230);
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	margin: 16 px;
+	box-shadow: 0 5px 6px rgb(230, 230, 230);
+}
+
+.card-white img {
+	margin-bottom: 20px;
+}
+
+.footer {
+	background-color: rgb(20, 20, 20);
+	color: white;
+	padding: 24px;
+	text-align: center;
+}
+
+.footer a {
+	color: white;
+}
+
+.listin-line {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.listin-line li {
+	display: inline;
+	padding: 0px 10px;
+}
